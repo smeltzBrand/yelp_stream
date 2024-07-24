@@ -1,0 +1,9 @@
+# Ignore all files in the dataset directory
+src/datasets/*
+
+# But keep the .gitkeep file
+!src/datasets/.gitkeep
+
+#Ignore the real config file
+src/config/config.py
+*.pyc

@@ -1,0 +1,17 @@
+config = {
+    "openai": {
+        "api_key": "YOUR_OPEN_AI_KEY_HERE"
+    },
+    "kafka": {
+        "sasl.username": "YOUR_KAFKA_CLIENT_API_KEY",
+        "sasl.password": "YOUR_KAFKA_CLIENT_API_PASSWORD",
+        "bootstrap.servers": "YOUR_BOOTSTRAP_SERVER_ENDPOINT",
+        'security.protocol': 'SASL_SSL',
+        'sasl.mechanisms': 'PLAIN',
+        'session.timeout.ms': 50000
+    },
+    "schema_registry": {
+        "url": "SCHEMA/STREAM_GOVERNANCE_API_ENDPOINT,
+        "basic.auth.user.info": "YOUR_SCHEMA_REGISTRY_API_KEY"
+    }
+}
